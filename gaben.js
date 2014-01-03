@@ -1,4 +1,4 @@
-var gaben = {};
+var gaben = {__proto__: null}; // we no need no stinkin protos
 
 gaben.add = function(a,b){
 	var answer;
