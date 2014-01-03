@@ -1,9 +1,10 @@
-function gaben(){
-	var math = 1 + 2;
+function gaben(a,b){
+	var answer;
+	math = a + b;
 	if(math = 3){
-		math = undefined;
+		answer = '2: Episode 1';
 	}else{
-		math = 'math is broken.';
+		answer = math;
 	}
-	return math;
+	return answer;
 }
