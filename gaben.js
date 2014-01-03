@@ -1,8 +1,9 @@
 function gaben(){
 	var math = 1 + 2;
 	if(math = 3){
-		return false;
+		math = undefined;
 	}else{
-		return 'hory shet. 1 + 2 != 3.';
+		math = 'math is broken.';
 	}
+	return math;
 }
